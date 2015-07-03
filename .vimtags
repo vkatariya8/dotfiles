@@ -1,0 +1,8 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+<C-S-TAB>	/Users/vishal/.vimrc	/^nnoremap <C-S-TAB> :tabprevious<CR>$/;"	m	language:Vim
+<leader>t	/Users/vishal/.vimrc	/^nmap <silent> <leader>t :NERDTreeTabsToggle<CR>$/;"	m	language:Vim
+g:airline#extensions#hunks#non_zero_only	/Users/vishal/.vimrc	/^let g:airline#extensions#hunks#non_zero_only = 1$/;"	v	language:Vim
+g:nerdtree_tabs_open_on_console_startup	/Users/vishal/.vimrc	/^let g:nerdtree_tabs_open_on_console_startup = 0$/;"	v	language:Vim
+g:syntastic_error_symbol	/Users/vishal/.vimrc	/^let g:syntastic_error_symbol = '✘'$/;"	v	language:Vim
+g:syntastic_warning_symbol	/Users/vishal/.vimrc	/^let g:syntastic_warning_symbol = "▲"$/;"	v	language:Vim
+mySyntastic	/Users/vishal/.vimrc	/^augroup mySyntastic$/;"	a	language:Vim
