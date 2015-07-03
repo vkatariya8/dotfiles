@@ -46,6 +46,23 @@ set showcmd
 set incsearch
 set hlsearch
 
+if !exists('g:airline_symbols')
+      let g:airline_symbols = {}
+  endif
+
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+let g:airline_symbols.linenr = '␊'
+let g:airline_symbols.linenr = '␤'
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
+let g:airline_symbols.whitespace = 'Ξ'
+
 syntax on
 
 set mouse=a
@@ -54,6 +71,7 @@ set mouse=a
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" let g:airline_powerline_fonts = 1
 let g:airline_powerline_fonts = 1
 
 nmap <silent> <leader>t :NERDTreeTabsToggle<CR>
@@ -81,6 +99,6 @@ augroup END
 "  " Required after having changed the colorscheme
 hi clear SignColumn
 " In vim-airline, only display hunks if the diff is non-zero
-let g:airline#extensions#hunks#non_zero_only = 1
+" let g:airline#extensions#hunks#non_zero_only = 1
 
 set laststatus=2
