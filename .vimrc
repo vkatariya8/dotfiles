@@ -25,6 +25,8 @@ Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-scripts/a.vim'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'Valloric/YouCompleteMe'
 
 " ----- Working with Git ----------------------------------------------
 Plugin 'airblade/vim-gitgutter'
@@ -34,8 +36,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'ntpeters/vim-better-whitespace'
 
 filetype plugin indent on
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 " General
