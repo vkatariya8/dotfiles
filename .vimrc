@@ -35,11 +35,14 @@ Plugin 'tpope/vim-fugitive'
 
 Plugin 'ntpeters/vim-better-whitespace'
 
+:autocmd BufReadPre,BufNewFile * let b:did_ftplugin = 1
+
 syntax on
 filetype plugin indent on
+set expandtab
 set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+" set shiftwidth=4
+" set expandtab
 " set expandtab
 " set ts=2 sw=2 expandtab
 
@@ -68,13 +71,11 @@ let g:airline_symbols.paste = 'Þ'
 let g:airline_symbols.paste = '∥'
 let g:airline_symbols.whitespace = 'Ξ'
 
-syntax on
 
 set mouse=a
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
-filetype plugin indent on    " required
 
 " let g:airline_powerline_fonts = 1
 let g:airline_powerline_fonts = 1
