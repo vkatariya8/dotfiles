@@ -35,10 +35,13 @@ Plugin 'tpope/vim-fugitive'
 
 Plugin 'ntpeters/vim-better-whitespace'
 
+syntax on
 filetype plugin indent on
-set tabstop=2
-set shiftwidth=2
-set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+" set expandtab
+" set ts=2 sw=2 expandtab
 
 " General
 set backspace=indent,eol,start

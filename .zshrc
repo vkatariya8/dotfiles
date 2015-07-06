@@ -7,7 +7,6 @@ export ZSH=/Users/vishal/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="bullet-train-oh-my-zsh-theme/bullet-train"
 ZSH_THEME="blinks"
-source ~/.bin/tmuxinator.zsh
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -47,6 +46,7 @@ source ~/.bin/tmuxinator.zsh
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 alias s='ssh ec2-54-86-242-9.compute-1.amazonaws.com'
+alias v='/usr/local/Cellar/vim/7.4.712/bin/vim'
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
