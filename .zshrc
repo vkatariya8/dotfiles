@@ -44,7 +44,8 @@ ZSH_THEME="blinks"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+# ZSH_CUSTOM=/path/to/new-custom-folde
+alias qu='ssh ec2-52-74-251-27.ap-southeast-1.compute.amazonaws.com'
 alias s='ssh ec2-54-86-242-9.compute-1.amazonaws.com'
 alias v='/usr/local/Cellar/vim/7.4.712/bin/vim'
 
